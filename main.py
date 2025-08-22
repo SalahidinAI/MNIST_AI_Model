@@ -61,3 +61,4 @@ async def check_image(image: UploadFile = File(...)):
 
 if __name__ == '__main__':
     uvicorn.run(check_image_app, host='127.0.0.1', port=8000)
+
